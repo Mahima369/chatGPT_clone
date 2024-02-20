@@ -26,7 +26,9 @@ const createElement = (html, className) => {
 //properties and data for the api request visit site https://platform.openai.com/docs/api-reference
 const getchatresponse = async (incomingdivelement) => {
     const API_URL = "https://api.openai.com/v1/chat/completions"
-    const API_KEY = "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"
+    const API_KEY = "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"  /*when you will deploy the website this API key will not work 
+                                                                          due to security reasons ,use environment variables to store 
+                                                                          API keys or .env files in case of Node.*/
     const pElement = document.createElement("p");
 
     const requestoptions = {
