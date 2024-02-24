@@ -1,1 +1,1 @@
-# chatGPT_clone(codeAlpha internship)
+CodeAlpha_internship_Task3(Chat_GPT clone)
